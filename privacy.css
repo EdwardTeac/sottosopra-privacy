@@ -1,0 +1,10 @@
+:root{color-scheme:light;color:#241a2c;background:#f3efe4;font:17px/1.65 system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0}main{max-width:760px;margin:auto;padding:36px 24px 64px}
+nav{display:flex;flex-wrap:wrap;gap:8px 18px;padding:0 0 28px;border-bottom:1px solid #c6b79e}
+a{color:#604367;text-decoration-thickness:1px;text-underline-offset:3px;overflow-wrap:anywhere}
+nav a{min-height:44px;display:inline-flex;align-items:center}nav [aria-current]{font-weight:750;color:#241a2c}
+.brand{font-weight:750;letter-spacing:.05em;margin:32px 0 8px}.updated{color:#6a6066;font-size:14px}
+h1{font-size:clamp(22px,5.8vw,42px);line-height:1.2;margin:0 0 16px;overflow-wrap:anywhere}
+h2{font-size:21px;line-height:1.35;margin:32px 0 10px}p{margin:0 0 18px}
+footer{border-top:1px solid #c6b79e;margin-top:36px;padding-top:24px}.links{display:flex;flex-wrap:wrap;gap:12px 24px;font-size:14px}
+@media(max-width:400px){main{padding:24px 18px 48px}}
